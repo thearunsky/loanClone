@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Override default container-fluid padding */
+.container-fluid {
+    padding: 0px 80px;
+    position: absolute;
+    z-index: 2;
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    height: 120px;
+    display: flex;
+    padding: 0px;
+    /* justify-content: space-around; */
+}
+
+.logo img {
+
+    max-width: 100%;
+    max-height: 70px;
+}
+
+.menu ul {
+    margin-top: 15px;
+    /* border: 1px solid red; */
+
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+
+    padding: 10px 25px;
+
+}
+
+.menu ul li:hover {
+    background-color: rgb(237, 0, 127);
+    color: white;
+    border-radius: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.buttons {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 11%;
+    height: 50%;
+}
+
+.buttons input:hover {
+    border: 1px solid pink;
+    color: rgb(237, 0, 127);
+    background-color: white;
+    transition: 0.6s;
+
+}
+
+.buttons input {
+    padding: 5px 15px;
+    /* margin-left: 10px; */
+    background-color: rgb(237, 0, 127);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons i {
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 20, 128);
+    cursor: pointer;
+
+
+
+}
+
+.buttons i:hover {
+    color: rgb(255, 0, 136);
+    border: 1px solid pink
+}
+
+.carLoan {
+    margin: 20px 0px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.carL {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    width: 15%;
+}
+
+.carL button {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 33px 33px 33px 33px;
+
+    padding: 5px 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+
+}
+
+.carL button:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    transition: 0.6s;
+}
+
+.carL button i {
+    /* border: 1px solid green; */
+    color: rgb(223, 20, 128);
+
+}
+
+.carL button p {
+    margin-top: 10px;
+    /* border: 1px solid green; */
+    font-size: 20px;
+}
+
+.content {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 60px;
+}
+
+.left p {
+    margin: 30px 0px;
+    font-size: 20px;
+}
+
+.right {
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.apply {
+    /* border : 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply button {
+    width: 48%;
+    padding: 10px 2px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.btn1 {
+    background-color: rgb(237, 0, 127);
+    color: white;
+
+}
+
+.btn1:hover {
+    background-color: white;
+    color: rgb(237, 0, 127);
+    transition: 0.6s;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: rgb(237, 0, 127);
+    transition: 0.6s;
+}
+
+.homeLoan {
+    /* margin: 20px 0px; */
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: end;
+}
+
+.homeL {
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid blue; */
+    width: 30%;
+}
+
+.homeL button {
+    background-color: white;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 33px 33px 33px 33px;
+
+    padding: 5px 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+
+}
+
+.homeL button:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+
+    transition: 0.6s;
+}
+
+.homeL button i {
+    /* border: 1px solid green; */
+    color: rgb(223, 20, 128);
+
+}
+
+.homeL button p {
+    margin-top: 10px;
+    /* border: 1px solid green; */
+    font-size: 20px;
+}
+
+.links {
+
+    /* border: 1px solid green; */
+    margin-top: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.back {
+    position: absolute;
+    background-color: rgb(255, 191, 224);
+    height: 80%;
+    width: 50%;
+
+    left: 50%;
+    z-index: 1;
+}
+
+.back img {
+    max-height: 100%;
+    max-width: 100%;
+
+    /* box-shadow: 5px 5px 10px #888888;  */
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    font-size: 16px;
+    transition: all 0.8s ease;
+}
+
+.wrapper{
+    display: none;
+}
+
+
+
+
+/* Media query for responsive design */
+/* @media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 1em;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .back {
+        height: 100vh;
+        width: 100vw;
+        left: 0px;
+    }
+    
+} */
+
+
+
+@media screen and (max-width: 901px) {
+    .container-fluid {
+        padding: 10px 25px;
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+    .carL{
+        width:25%;
+    }
+    .homeL{
+        width: 40%;
+    }
+
+    .menu ul li{
+        padding: 10px 10px;
+
+    }
+    .apply{
+        width: 80%;
+    }
+    
+    .links{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1450px) {
+    body {
+        font-size: 16px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 3em;
+    }
+
+    .buttons input{
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .back img{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .apply{
+        width: 80%;
+    }
+    .buttons{
+        width: 50%;
+    }
+
+    .buttons i{
+        font-size: 25px;
+    }
+    .logo img{
+        max-width: 100%;
+        max-height: 2em;
+    }
+
+    .buttons{
+        margin-right: 30px;
+        font-size: 1em;
+    }
+
+    
+    
+}
+@media screen and (max-width: 820px) {
+    .carLoan{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .back{
+        height: 100%;
+        width: 100%;
+        left: 0;
+    }
+    .back img{
+        position: absolute;
+        max-height: 80%;
+        left: 30%;
+    }
+    .content{
+        margin-top: 10%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1084px) {
+    
+
+    .menu{
+        display: none;
+    }
+    
+
+    .buttons{
+        width: 50%;
+    }
+
+    .wrapper{
+        margin-left: 20%;
+        display: flex;
+    }
+    .wrapper i {
+        position: relative;
+    }
+    /* #lines:hover{
+        background-color: black;
+    } */
+    .wrapper:hover .show{
+        display: block;
+    }
+    .show{ 
+        position: absolute;
+        top: 60%;
+        right: 10%;
+        background-color: white;
+        padding:  2% 10%;
+        border-radius: 10px;
+        display: none;
+    }
+    
+    .show ul li:hover{
+        
+        background-color: pink;
+        border-radius: 10px;
+        padding: 10px;
+        color: #000;
+
+    }
+
+    .show ul{
+        list-style-type: none;
+        /* margin-top: 50px;
+        margin-right: 100px; */
+    }
+    .show ul li{
+        margin-top: 20px;
+    }
+
+}
